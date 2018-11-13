@@ -4,7 +4,6 @@
 <h5 align="center">
 Collection of TimeLine theme. 
 This package only use flexbox(without absolute) & FlatList
-
 </h5>
 <p align="center">
 <img src="https://github.com/tomzaku/react-native-timeline-theme/blob/master/phone-detail.gif?raw=true">
@@ -30,24 +29,20 @@ That's all!
 ``` js
 const data = [
   {
-    title: 'Wake up',
-    description: 'Remember tooth brushing and read notes on the tablet',
-    time: new Date("March 6, 2018 6:15:00"),
+    history: 'Remember tooth brushing and read notes on the tablet',
+    date: new Date("March 6, 2018 6:15:00"),
   },
   {
-    title: 'Eatting',
-    description: 'Eat breakfast: bread and drink milk',
-    time: new Date("March 6, 2018 7:00:00"),
+    history: 'Eat breakfast: bread and drink milk',
+    date: new Date("March 6, 2018 7:00:00"),
   },
   {
-    title: 'Working',
-    description: 'Go to ABX Company and working react-native',
-    time: new Date("March 6, 2018 7:35:00"),
+    history: 'Go to ABX Company and working react-native',
+    date: new Date("March 6, 2018 7:35:00"),
   },
   {
-    title: 'Relax',
-    description: 'Listen to music "Hello Vietnam" song',
-    time: new Date("March 6, 2018 14:15:00"),
+    history: 'Listen to music "Hello Vietnam" song',
+    date: new Date("March 6, 2018 14:15:00"),
   },
 ]
 ...
